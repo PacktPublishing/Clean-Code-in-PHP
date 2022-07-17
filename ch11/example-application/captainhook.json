@@ -1,0 +1,16 @@
+{
+    "config": {
+        "fail-on-first-error": true
+    },
+    "pre-commit": {
+        "enabled": true,
+        "actions": [
+            {
+                "action": "vendor/bin/php-cs-fixer fix {$STAGED_FILES|of-type:php} --dry-run"
+            },
+            {
+                "action": "vendor/bin/phpstan {$STAGED_FILES|of-type:php}"
+            }
+        ]
+    }
+}
