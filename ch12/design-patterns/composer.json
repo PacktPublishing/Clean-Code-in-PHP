@@ -1,0 +1,16 @@
+{
+  "name": "clean-code-book/design-patterns",
+  "description": "Example code for the design patterns discussed in our book",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Carsten Windler",
+      "email": "carsten@carstenwindler.de"
+    }
+  ]
+}
