@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "OpenApiExample\\":"src/"
+        }
+    },
+    "require": {
+        "zircote/swagger-php": "^4.4"
+    }
+}
