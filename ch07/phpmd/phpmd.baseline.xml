@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<phpmd-baseline>
+  <violation rule="PHPMD\Rule\CleanCode\StaticAccess" file="src/phpmd_surpress_example.php"/>
+</phpmd-baseline>

@@ -1,0 +1,12 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method Vat\\:\\:getVat\\(\\) should return int but returns float\\.$#"
+			count: 1
+			path: src/phpstan_example.php
+
+		-
+			message: "#^Method OrderPosition\\:\\:getGrossPrice\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/phpstan_example2.php
+
