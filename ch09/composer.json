@@ -1,0 +1,23 @@
+{
+  "name": "vendor/package",
+  "require": {
+    "doctrine/dbal": "^2.10",
+    "monolog/monolog": "^2.2",
+    "friendsofphp/php-cs-fixer": "^3.11"
+  },
+  "scripts": {
+    "analyze": [
+      "vendor/bin/php-cs-fixer fix src",
+      "vendor/bin/phpstan analyse --level 1 src"
+    ]
+  },
+  "scripts-descriptions": {
+    "analyze": "Perform code cleanup and analysis"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^9.5",
+    "phpmetrics/phpmetrics": "^2.8",
+    "phpstan/phpstan": "^1.8"
+  }
+}
