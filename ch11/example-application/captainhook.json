@@ -9,7 +9,7 @@
                 "action": "vendor/bin/php-cs-fixer fix {$STAGED_FILES|of-type:php} --dry-run"
             },
             {
-                "action": "vendor/bin/phpstan {$STAGED_FILES|of-type:php}"
+                "action": "vendor/bin/phpstan analyse {$STAGED_FILES|of-type:php}"
             }
         ]
     }
