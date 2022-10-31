@@ -60,7 +60,3 @@ is a Lead PHP engineer at Plan A.
 
 **Alexandre Daubois**
 is a Symfony Developer at SensioLabs, the company that created Symfony.
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781804613870">https://packt.link/free-ebook/9781804613870 </a> </p>
